@@ -76,7 +76,7 @@ void TicTacToe::UpdateTheBoard(int row, int column) {
 	} else board_[row - 1][column - 1] = 'o';
 }
 
-bool TicTacToe::gameEndedInADraw() {
+bool TicTacToe::GameEndedInADraw() {
 	if (pieces_ == 9) { return true; }
 	return false;
 }
